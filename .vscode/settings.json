@@ -1,0 +1,17 @@
+{
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.testing.pytestArgs": [
+        "-v",
+        "--cov=src",
+        "--cov-report=html",
+        "--pdb",
+        "test/"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.lintOnSave": true
+}
